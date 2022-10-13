@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background: linear-gradient(to right, #061161, #780206);
+}
+
+.container h4{
+    padding:0px 15px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  overflow: hidden;
+}
+.container ul li {
+  float: left;
+}
+
+.container ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 15px;
+}
+
+.container ul li a:hover {
+  background-color: #111;
+}
